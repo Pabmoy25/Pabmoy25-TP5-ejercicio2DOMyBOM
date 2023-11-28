@@ -1,14 +1,19 @@
 body {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   background-image: url(../img/cronometro1.png);
-  background-size: cover;}
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+
+
 
 main {
-  flex-grow: 1;
+  flex-grow: 1
+  ;
 }
 
 .reloj {
