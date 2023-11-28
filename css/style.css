@@ -2,9 +2,17 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  }
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/cronometro1.png);
+  background-size: cover;}
 
 main {
   flex-grow: 1;
 }
+
+.reloj {
+    border-radius: 30px;
+    border: solid rgb(5, 5, 5);
+  }
 
